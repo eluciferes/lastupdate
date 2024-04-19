@@ -1,0 +1,11 @@
+Slither install
+
+"python3 -m venv /home/cctl/Music/truffle/Voting_0.3"               //It Should want a permission
+
+"sudo chown -R $USER:$USER /home/cctl/Music/truffle/Voting_0.3/"    //This command recursively changes the ownership of all files and directories within /home/cctl/Music/truffle/Voting_0.3/ to your user.
+
+"source /home/cctl/Music/truffle/Voting_0.3/bin/activate"           // Slither activation started 
+
+"pip install slither-analyzer"                                      //Installed slither-analyzer tool
+
+"slither ."                                                        //Starting the process
